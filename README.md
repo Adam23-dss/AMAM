@@ -5,19 +5,20 @@
 
 ## 🧭Contexte du projet
 
-L’agriculture africaine dépend fortement de la météo, mais les agriculteurs font face à :
-- des pluies imprévisibles,
-- des sécheresses fréquentes,
-- 🍂 des maladies liées au climat,
+L’agriculture africaine dépend encore fortement des conditions météorologiques. Les agriculteurs et les populations plus généralement font face à des difficultés tels que:
+- des pluies imprévisibles et des sécheresses fréquentes qui affectent les champs et les rendements
+  ## [![situation de l'hivernage 2024 à Touba](https://i0.wp.com/www.vivafrik.com/wp-content/uploads/2015/10/Khelcom.jpg)](https://youtu.be/QU1AtGt3b1E?si=mxYrtdiGl-DaCY68 "situation de l'hivernage 2024 à Touba")
+> Clique sur l'image : Ce reportage de la chaine Al Mouridiyyah tv illustre la situation de l'hivernage 2024 à Diourbel (Touba)
+- 🍂 des maladies liées au climat (paludisme, etc),
 - 📉 un manque de données locales fiables.
 
-Le projet AMAM – Hack2Hire vise à fournir une plateforme intelligente d’aide à la décision agricole, combinant prévisions météo locales,modèles de prédiction machine learning**, et notifications simples (SMS/WhatsApp)** pour les agriculteurs.
+Le projet AMAM – Hack2Hire vise à fournir une plateforme intelligente d’aide à la décision agricole, combinant prévisions météorologiques locales, modèles de Machine Learning pour prédire la météo, et notifications simples (SMS/WhatsApp)** pour les agriculteurs.
 
 ---
 
 ## Objectifs
 
-1. Offrir des **prévisions météo locales précises adaptées à chaque champ agricole.  
+1. Offrir des **prévisions météo locales précises** adaptées à chaque champ agricole.  
 2. Mettre en place des **modèles de prédiction intelligents** :
    - prévision de pluie et sécheresse,
    - détection de maladies liées au climat,
@@ -43,13 +44,16 @@ Le projet AMAM – Hack2Hire vise à fournir une plateforme intelligente d’aid
 ---
 
 ### 2️⃣ **Data Science & MLOps**
-- Modèles de prédiction météo/agro :
-  - Sécheresse, pluie, irrigation, maladies.
+- Modèles de prédiction météo/agro (ML) :
+> - Prédire la pluie → éviter d’arroser pour rien. 
+> - Anticiper sécheresse → planifier irrigation. 
+> - Détecter risque de maladies (ex. chaleur + humidité = champignons). 
+> - Estimer besoins en eau → recommandations personnalisées.
 - Gestion et suivi via MLflow.
 - API ML pour servir les prédictions en temps réel.
 
 **Outils :**
-- scikit-learn, XGBoost, Prophet, MLflow, FastAPI, Docker
+> [scikit-learn](https://scikit-learn.org/stable/), XGBoost, Prophet, [MLflow](https://mlflow.org/), FastAPI, [Docker](https://www.docker.com/)
 
 ---
 
